@@ -7,4 +7,9 @@ body {
     background-color: #ffffff;
 }
 
-#navbar {}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    left: 0px;
+    top: 0px;
+}
