@@ -2,4 +2,9 @@
 html,
 body {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    min-width: 290px;
+    background-color: #ffffff;
 }
+
+#navbar {}
