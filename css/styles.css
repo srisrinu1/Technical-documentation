@@ -14,7 +14,17 @@ body {
     line-height: 1.5;
     min-width: 290px;
     background-color: #ffffff;
+    color: #7C3AED;
 }
+
+body {
+    color: #7C3AED;
+}
+
+
+/* .Container {
+    color: #7C3AED;
+} */
 
 #navbar {
     position: fixed;
@@ -29,7 +39,7 @@ body {
 }
 
 h2 {
-    color: black;
+    color: #111827;
     font-size: 20px;
     font-weight: 900;
     text-align: center;
@@ -52,11 +62,13 @@ h2 {
 
 #navbar ul li a {
     text-decoration: none;
-    color: black;
+    color: #111827;
+    font-weight: 600;
 }
 
 .item {
     border-bottom: 1px solid rgba(0, 22, 22, 0.4);
+    /* color: #7C3AED; */
     text-align: center;
     padding: 15px 25px;
     margin: 0 0 20px;
@@ -74,7 +86,7 @@ h2 {
 }
 
 #main-doc header {
-    color: black;
+    color: #111827;
     font-size: 20px;
     font-weight: 900;
     text-align: left;
@@ -94,12 +106,24 @@ section article {
 section li {
     margin: 15px 0px 0px 20px;
     padding-top: 0;
+    color: #111827;
 }
 
 section article p {
     margin-top: 15px;
     margin-bottom: 10px;
+    color: #111827;
 }
+
+
+/* .dark-mode {
+    background-color: black;
+} */
+
+
+/* .dark-mode {
+    background: black;
+} */
 
 code {
     display: block;
@@ -110,10 +134,11 @@ code {
     word-break: normal;
     word-wrap: normal;
     line-height: 2;
-    background-color: #f7f7f7;
+    background-color: #9CA3AF;
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
+    color: #111827;
 }
 
 .ExternalLink {
@@ -126,9 +151,16 @@ code {
 }
 
 .moon {
+    color: #7C3AED;
     text-align: right;
     font-size: 35px;
     margin: 5px 26px 0px 0px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    filter: invert(100%);
+    color: green;
 }
 
 @media only screen and (max-width: 815px) {
