@@ -197,6 +197,9 @@ code {
         position: absolute;
         left: 0;
         margin-left: 0px;
+        white-space: normal;
+        min-width: 285px;
+        width: 100%;
     }
     code {
         margin-left: 20px;
