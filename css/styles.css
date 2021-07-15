@@ -128,7 +128,7 @@ code {
 .moon {
     text-align: right;
     font-size: 35px;
-    margin-right: 26px;
+    margin: 5px 26px 0px 0px;
 }
 
 @media only screen and (max-width: 815px) {
