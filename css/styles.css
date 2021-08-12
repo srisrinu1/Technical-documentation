@@ -139,6 +139,7 @@ code {
 }
 
 .moon {
+    position:fixed;
     color: #7C3AED;
     text-align: right;
     font-size: 35px;
